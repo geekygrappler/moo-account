@@ -1,3 +1,34 @@
-<h2 id="title">Welcome to the Tech Team Meeting</h2>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 
-{{outlet}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+
+<div class="navbar-fixed">
+    <nav class="green">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left">MOO</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container">
+
+    <nav class="white">
+        <ul class="left">
+            <li>
+                {{#link-to "projects" class="black-text"}}
+                    Projects
+                {{/link-to}}
+            </li>
+            <li>
+                <a class="black-text" href="">Orders</a>
+            </li>
+            <li><a class="black-text" href="">Personal Details</a></li>
+        </ul>
+    </nav>
+
+    {{outlet}}
+
+</div>
