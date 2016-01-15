@@ -1,3 +1,4 @@
+import { Response } from 'ember-cli-mirage';
 export default function () {
     
     this.timing = 3000;
@@ -81,6 +82,11 @@ export default function () {
                 }
             }
         };
+    });
+    
+    this.del('projects/:id', (schema, request) => {
+        schema.projects.remove(request.params.id);
+        return new Response(204);
     });
 
     // These comments are here to help you get started. Feel free to delete them.

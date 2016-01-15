@@ -10,7 +10,9 @@
     "loader.js": "^3.5.0",
     "qunit": "~1.20.0",
     "pretender": "~0.10.1",
-    "Faker": "~3.0.0"
+    "Faker": "~3.0.0",
+    "moment": "^2.8.0",
+    "moment-timezone": "^0.5.0"
   },
   "resolutions": {
     "ember": "2.2.0"
