@@ -1,6 +1,6 @@
 <h3>Projects</h3>
 
 <div class="row">
-    {{project-list projects=model}}
+    {{project-list projects=model deleteProject=(route-action "deleteProject")}}
 </div>
 {{outlet}}
