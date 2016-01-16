@@ -1,7 +1,7 @@
 # Moo-account
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a demo app used for a presentation given at work (MOO) on Ember for our weekly Tech Team Meeting.
+Each section tag corresponds to the section of the presentation deck hosted on my blog here: www.thetechcofounder.com
 
 ## Prerequisites
 
